@@ -11,14 +11,13 @@
  *
  * Replace them with your own styles or remove the file completely.
  */
-img {
-  border-radius: 100% !important;
-  height: 200px;
-  width: 200px;
-}
-
-.wp-image-49 {
+.wp-block-image {
   border-radius: 50% !important;
+  height: 200px !important;
+  width: 200px !important;
+}
+.wp-block-image img {
+  border-radius: 100% !important;
   height: 200px !important;
   width: 200px !important;
 }

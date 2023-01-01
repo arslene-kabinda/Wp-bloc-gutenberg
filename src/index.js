@@ -4,7 +4,8 @@
  * @see https://developer.wordpress.org/block-editor/reference-guides/block-api/block-registration/
  */
 import { registerBlockType } from "@wordpress/blocks";
-import "./container";
+import "./containerImgLeft";
+import "./containerImgRight";
 
 /**
  * Lets webpack process CSS, SASS or SCSS files referenced in JavaScript files.
