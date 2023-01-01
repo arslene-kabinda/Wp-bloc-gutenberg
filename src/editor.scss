@@ -1,0 +1,45 @@
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+ @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Sail&display=swap');
+
+ img {
+	border-radius: 50% !important;
+	height : 200px !important;
+	width:200px ;
+
+ }
+
+
+.wp-block-create-block-heroes-block {
+	h1{
+		font-size: 1.5rem;
+		color :#548B9F;
+		font-weight: 700;
+		font-family: 'Poppins', sans-serif;
+
+	}
+
+	a {
+		padding :10px 20px ;
+		border-radius: 40px;
+		background-color: #F4C3B8;
+		text-decoration: none;
+		
+	}
+	.ka-button{
+		color :#548B9F;
+	}
+	&.is-style-default{
+		border: 0;
+ background-color: #FFE2C7;
+	}
+	&.is-style-border{
+		border: 2px solid #000;
+ border-radius: 16px;
+ background-color: #F6F6F6;
+	}
+}
